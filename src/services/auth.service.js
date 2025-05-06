@@ -3,7 +3,7 @@ import authHeader from './authHeader';
 
 
 //const API_URL ="http://ec2-54-65-68-33.ap-northeast-1.compute.amazonaws.com:8081/"
-const API_URL ="http://localhost:8081/";;
+const API_URL ="http://20.0.106.212:8081/";;
 class AuthService {
   login(userName, password) {
     return axios

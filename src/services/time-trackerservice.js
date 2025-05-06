@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from './authHeader';
 
-const API_URL = 'http://localhost:8081/';
+const API_URL = 'http://20.0.106.212:8081/';
 
 class TimeTrackerService {
   addProject(taskTitle, duration, projectId, projectName, startTime, status, stopTime) {
